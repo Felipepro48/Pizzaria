@@ -10,7 +10,7 @@ public class ClientePizzariaDAO {
     public ClientePizzariaDAO(){
         con = new ConexaoPizzaria().conectar();
 }
-
+//pag dao
     public String inserir(ClientePizzaria c){
         String status = "Cliente inserido com sucesso!";
         String sql = "INSERT INTO cliente (cpf, nome, telefone, email) values (?,?,?,?)";
